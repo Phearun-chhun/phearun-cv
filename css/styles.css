@@ -95,8 +95,12 @@
         padding: 20px;
         text-align: center;
     }
+    .social{
+        padding: 25px;
+    }
     .social img{
         width: 20px;
+
     }
     .side-right p{
         text-align: left;
