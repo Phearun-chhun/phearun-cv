@@ -100,6 +100,8 @@
         width: 10px;
     }
     .side-right p{
+        text-align: left;
+        text-align-last: left;
         padding: 2px;
     }
     .address{
