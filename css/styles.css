@@ -124,7 +124,7 @@ footer{
     text-align-last: right;
 }
 } */
-@media (min-width:768px) {
+@media (min-width:767px) {
     /* navigaion bar */
     .logo{
         width: 50px;
