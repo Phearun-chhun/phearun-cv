@@ -126,10 +126,10 @@ footer{
 @media (max-width:1024px){
     /* navigaion bar */
     header nav ul a{
-        font-size:0.9rem;
+        font-size:1.6rem;
     }
     #active{
-        border-bottom: 1.5px solid #fff;
+        border-bottom: 2px solid #fff;
     }
     /* banner */
     .heading-3{
@@ -164,6 +164,59 @@ footer{
     }
     .address{
         width: 35%; 
+    }
+}
+@media(max-width:768px){
+    header nav ul a{
+        font-size: 1.5rem;
+    }
+    #active{
+        border-bottom: 2px solid #fff;
+    }
+    .heading-3{
+        text-align:center;
+        text-transform: uppercase;
+        font-size: 1.7rem;
+        letter-spacing: 3px;
+        line-height: 1.7;
+    }
+    .heading-3 span{
+        font-size: 2rem;
+    }
+    .paragraph{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.7rem;
+        letter-spacing: 2px;
+    }
+    .paragraph p{
+        width: 80%;
+        text-align: center;
+        text-align-last: center;    
+        line-height: 1.7;
+    }
+    /* button */
+    .text .btn{
+        text-align: center;
+        margin: 50px;
+    }
+    .button {
+        font-size: 1rem;
+    }
+    /* footer */   
+    .info{
+        padding: 10px;
+    }
+    .social{
+        text-align: center;
+    }
+    .social img{
+        width: 30px;
+    }
+    .address{
+        padding: 10px;
+        width: 50%;
     }
 }
 @media(max-width:500px){
