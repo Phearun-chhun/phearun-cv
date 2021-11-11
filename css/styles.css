@@ -3,9 +3,7 @@
     padding: 0;
 
 }
-body{
-    width: 100%;
-}
+/* header */
 .logo{
     width: 50px;
     height: 50px;
@@ -43,7 +41,7 @@ border-bottom: 2px solid #fff;
 .banner{
     color: #fff;
     width: 100%;
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg-1.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/bg-1.jpg);
     background-repeat: no-repeat;
     height: 100vh;
     -webkit-background-size:cover ;
@@ -57,8 +55,8 @@ border-bottom: 2px solid #fff;
 .heading-3{
     text-align:center;
     text-transform: uppercase;
-    font-size: 1.9rem;
-    letter-spacing: 7px;
+    font-size: 1.7rem;
+    letter-spacing: 3px;
     line-height: 1.7;
 }
 .heading-3 span{
@@ -68,15 +66,16 @@ border-bottom: 2px solid #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.9rem;
-    letter-spacing: 3px;
+    font-size: 1.7rem;
+    letter-spacing: 2px;
 }
 .paragraph p{
-    width: 55%;
+    width: 45%;
     text-align: center;
     text-align-last: center;    
     line-height: 1.7;
 }
+/* button */
 .text .btn{
     text-align: center;
     margin: 50px;
@@ -89,129 +88,16 @@ border-bottom: 2px solid #fff;
     color: #fff;
     text-transform: capitalize;
     text-decoration: none;
-    font-size: 1.5rem;
-    letter-spacing: 3px;
-    transition: all .3s;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-}
-footer{
-    font-size: 2rem;
-    background: #6A92D8;
-    color: #fff;
-}
-.info{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    letter-spacing: 3px;
-}
-.social img{
-    padding: 10px;
-    width: 40px;
-}
-.side-right p{
-    padding: 7px;
-}
-.address{
-    padding: 10px;
-    width: 35%;
-    text-align: right;
-    text-align-last: right;
-}
-
-/* /responsive *//* navigaion bar *//* banner */
-@media (max-width:768px) {
-    
-.logo{
-    display: none;
-}
-header{
-    background: #6A92D8;
-    position: sticky;
-    top: 0;
-    z-index: 99999;     
-}
-header nav{
-    text-align: center;
-    /* padding-right: 20px; */
-}
-/* header nav ul{
-  
-} */
-header nav ul li{
-    padding: 10px;
-    list-style: none;
-}
-header nav ul a {
-    color: #fff;
     font-size: 1.2rem;
-    text-decoration: none;
-}
-#active{
-border-bottom: 2px solid #fff;
-}
-
-.banner{
-    color: #fff;
-    width: 100%;
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg-1.jpg);
-    background-repeat: no-repeat;
-    height: 100vh;
-    -webkit-background-size:cover ;
-    background-size:cover ;
-    background-position:  center;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.heading-3{
-    text-align:center;
-    text-transform: uppercase;
-    font-size: 1.9rem;
-    letter-spacing: 7px;
-    line-height: 1.7;
-}
-.heading-3 span{
-    font-size: 2.3rem;
-}
-.paragraph{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.9rem;
-    letter-spacing: 3px;
-}
-.paragraph p{
-    width: 55%;
-    text-align: center;
-    text-align-last: center;    
-    line-height: 1.7;
-}
-.text .btn{
-    text-align: center;
-    margin: 50px;
-}
-.button {
-    display: inline-block;
-    background: #6A92D8;
-    padding: 1rem;
-    border-radius: 8px;
-    color: #fff;
-    text-transform: capitalize;
-    text-decoration: none;
-    font-size: 1.5rem;
-    letter-spacing: 3px;
+    letter-spacing: 1px; 
     transition: all .3s;
     position: relative;
     overflow: hidden;
     z-index: 1;
 }
+/* footer */
 footer{
-    font-size: 2rem;
+    font-size: 1.5rem;
     background: #6A92D8;
     color: #fff;
 }
@@ -220,7 +106,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 .social img{
     padding: 10px;
@@ -231,238 +117,102 @@ footer{
 }
 .address{
     padding: 10px;
-    width: 35%;
+    width: 30%;
     text-align: right;
     text-align-last: right;
 }
-}
-/* @media(min-width:768px) {
-    
-    .logo{
-        width: 50px;
-        height: 50px;
-        padding-left: 20px;
-    }
-    header{
-        display: flex;
-        justify-content: space-between;
-        background: #6A92D8;
-        position: sticky;
-        top: 0;
-        z-index: 99999;     
-    }
-    header nav{
-        padding-right: 20px;
-    }
-    header nav ul{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    header nav ul li{
-        padding: 10px;
-        list-style: none;
-    }
-    header nav ul a {
-        color: #fff;
-        font-size: 1.2rem;
-        text-decoration: none;
+
+/* /responsive */
+@media (max-width:1024px){
+    /* navigaion bar */
+    header nav ul a{
+        font-size:0.9rem;
     }
     #active{
-       border-bottom: 2px solid #fff;
+        border-bottom: 1.5px solid #fff;
     }
- 
-    .banner{
-        color: #fff;
-        width: 100%;
-        background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg-1.jpg);
-        background-repeat: no-repeat;
-        height: 100vh;
-        -webkit-background-size:cover ;
-        background-size:cover ;
-        background-position:  center;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    /* banner */
     .heading-3{
-        text-align:center;
-        text-transform: uppercase;
         font-size: 1.5rem;
-        letter-spacing: 7px;
+        letter-spacing: 2px;
         line-height: 1.7;
     }
     .heading-3 span{
         font-size: 2rem;
     }
     .paragraph{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         font-size: 1.5rem;
-        letter-spacing: 3px;
+        letter-spacing: 1.7px;
     }
     .paragraph p{
-        width: 70%;
+        width: 50%;
         text-align: center;
         text-align-last: center;    
         line-height: 1.7;
     }
-    .text .btn{
-        text-align: center;
-        margin: 50px;
-    }
+    /* button */
     .button {
-        display: inline-block;
-        background: #6A92D8;
-        padding: 1rem;
-        border-radius: 8px;
-        color: #fff;
-        text-transform: capitalize;
-        text-decoration: none;
         font-size: 1rem;
-        letter-spacing: 3px;
-        transition: all .3s;
-        position: relative;
-        overflow: hidden;
-        z-index: 1;
     }
+    /* footer */
     footer{
-        font-size: 0.9rem;
-        background: #6A92D8;
-        color: #fff;
-    }
-    .info{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-        letter-spacing: 3px;
+        font-size: 1.2rem;
     }
     .social img{
+        padding: 10px;
         width: 30px;
-        padding: 5px;
+    }
+    .address{
+        width: 35%; 
+    }
+}
+@media(max-width:500px){
+    /* navigation */
+    .logo{
+        display: none;
+    }
+    header nav ul{
+        display:block;
+        text-align: center;
+    }
+    .heading-3{
+        font-size: 1.3rem;
+    }
+    .heading-3 span{
+        font-size: 2rem;
+    }
+    .paragraph{
+        font-size: 1rem;
+    }
+    .paragraph p{
+        width: 90%;
+    }
+    /* footer */
+    footer{
+        font-size: 1.2rem;
+    }
+    .info{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        letter-spacing: 1.4px;
+    }
+    .social{
+        text-align: center;
+    }
+    .social img{
+        padding: 10px;
+        width: 20px;
     }
     .side-right p{
         padding: 7px;
     }
     .address{
-        width: 35%;
         padding: 10px;
-        text-align: right;
-        text-align-last: right;
-    }
-}
-@media(max-width:480px) {
-    .logo{
-        display: none;
-    }
-    header{
-        background: #6A92D8;
-        position: sticky;
-        top: 0;
-        z-index: 99999;     
-    }
-    header nav{
-        text-align: center;
-        padding-right: 20px;
-    }
-    header nav ul li{
-        padding: 10px;
-        list-style: none;
-    }
-    header nav ul a {
-        color: #fff;
-        font-size: 1.2rem;
-        text-decoration: none;
-    }
-    #active{
-       border-bottom: 2px solid #fff;
-    }
-
-    .banner{
-        color: #fff;
-        width: 100%;
-        background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg-1.jpg);
-        background-repeat: no-repeat;
-        height: 100vh;
-        -webkit-background-size:cover ;
-        background-size:cover ;
-        background-position:  center;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .heading-3 {
-        text-align:center;
-        text-transform: uppercase;
-        font-size: 1rem;
-        letter-spacing: 7px;
-    }
-    .heading-3 span{
-        font-size: 1.5rem;
-    }
-    .paragraph{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1rem;
-        letter-spacing: 1px;
-    }
-    .paragraph p{
         width: 90%;
-        text-align: center;
-        text-align-last: center;    
-    }
-    .text .btn{
-        text-align: center;
-    margin: 50px;
-    }
-    .button {
-        display: inline-block;
-        background: #6A92D8;
-        padding: 1rem;
-        border-radius: 8px;
-        color: #fff;
-        text-transform: capitalize;
-        text-decoration: none;
-        font-size: 1rem;
-        letter-spacing: 3px;
-        transition: all .3s;
-        position: relative;
-        overflow: hidden;
-        z-index: 1;
-    }
-    footer{
-        font-size: 1rem;
-        background: #6A92D8;
-        color: #fff;
-    }
-    .info{
-        padding: 20px;
-        text-align: center;
-    }
-    .social{
-        padding: 25px;
-    }
-    .social img{
-        width: 40px;
-        padding: 10px;
-
-    }
-    .side-right p{
-        text-align: left;
-        text-align-last: left;
-        padding: 2px;
-    }
-    .address{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
         text-align: left;
         text-align-last: left;
     }
-} */
+    
+}
