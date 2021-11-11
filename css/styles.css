@@ -201,6 +201,9 @@ footer{
     .social{
         text-align: center;
     }
+    .social img{
+        width: 40px;
+    }
     .side-right p{
         padding: 7px;
     }
