@@ -105,9 +105,13 @@ border-bottom: 2px solid #fff;
     width: 90%;
     margin-left: 5%;
 }
-.title{
+.container .title{
     text-align: center;
     padding: 20px;
+}
+.container .title span{
+    font-weight: bold;
+    font-size: 2rem;
 }
 .information{
     width: 100%;
@@ -301,8 +305,10 @@ footer{
     .information .text{
         width: 100%;
     }
-    .container .title h1{
-        font-size: 2rem;
+    /* container */
+    .container .title span{
+        font-weight: bold;
+        font-size: 1.6rem;
     }
     .container .btn{   
         width: 50%;
@@ -385,6 +391,11 @@ footer{
     .button {
         font-size: 1rem;
     }
+    /* container */
+    .container .title span{
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
     .container .btn{    
         width: 60%;
         margin-left: 20%;
@@ -398,10 +409,10 @@ footer{
     }
     /* card */
     .card-4{
-        width: 200px;
+        width: 190px;
     }
     .card-4 .image{
-        width: 200px;  
+        width: 190px;  
     }
     .card-p{
         font-size: 0.67rem;  
@@ -480,7 +491,11 @@ footer{
     .paragraph p{
         width: 90%;
     }
-    /* buttom */
+    /* buttom &container*/ 
+    .container .title span{
+        font-weight: bold;
+        font-size: 1rem;
+    }
     .container .btn{     
         width: 70%;
         flex-wrap:wrap;
