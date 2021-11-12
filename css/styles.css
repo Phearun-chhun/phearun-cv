@@ -78,7 +78,7 @@ border-bottom: 2px solid #fff;
     letter-spacing: 2px;
 }
 .paragraph p{
-    width: 45%;
+    width: 50%;
     text-align: center;
     text-align-last: center;    
     line-height: 1.7;
@@ -130,6 +130,7 @@ border-bottom: 2px solid #fff;
     width:40%;
     text-align: left;
     text-align-last:left;
+    line-height: 2;
 }
 .container .text p{
     width: 95%;
@@ -163,19 +164,22 @@ border-bottom: 2px solid #fff;
     width: 34%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 .card-4 .image{
-    width: 370px;    
+    width: 300px;    
     border-radius: 15px;
+    text-align: center;
 }
 .card-4 h2, p{
     width: 90%;
+    line-height: 1.7;
 }
 .card-p{
     padding: 10px;
+    display: block;
 }
 .border{
     width: 100%;
@@ -288,6 +292,58 @@ footer{
     /* button */
     .button {
         font-size: 1rem;
+    }
+    .information{
+        flex-wrap: wrap;
+    }
+    .information img{
+        width: 100%;
+    }
+    .information .text{
+        width: 100%;
+    }
+    .container .title h1{
+        font-size: 2rem;
+    }
+    .container .btn{      
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+    .container .btn .button a{
+          font-size: 2rem;
+    }
+    /* card */
+    .card-4 .image{
+        width: 270px;    
+        border-radius: 15px;
+    }
+    .card-p{
+        padding: 10px;
+        display: block;
+    }
+    .card-6 .blue{
+        height: 15px;
+    }
+    .blue-1{
+        height: 15px;
+    }
+    .blue-2{
+        height: 15px;
+    }
+    .blue-3{
+        height: 15px;
+    }
+    .blue-4{
+        height: 15px;
+    }
+    .blue-5{
+        height: 15px;
+    }
+    .blue-6{
+        height: 15px;
     }
     /* footer */
     footer{
