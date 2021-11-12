@@ -298,6 +298,7 @@ footer{
     }
     .information img{
         width: 100%;
+        border-radius:15px 15px  0 0 ;
     }
     .information .text{
         width: 100%;
@@ -402,7 +403,7 @@ footer{
         width: 35%;
     }
 }
-@media(max-width:500px){
+@media(max-width:540px){
     /* navigation */
     .logo{
         display: none;
