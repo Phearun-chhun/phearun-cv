@@ -159,6 +159,44 @@ border-bottom: 2px solid #fff;
     justify-content: center;
     align-items: center;
 }
+.container-1{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0 20px 0;
+}
+.container-1 .text{
+    width: 65%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+.container-1 .text p{
+    width: 90%;
+    margin-left:5%;
+    padding: 10px;
+}
+.container-1 .text .button-1{
+    width: 13%;
+    font-size: 1rem;
+    display: block;
+    justify-content: stretch;
+    align-items: center;
+    margin: 10px;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+.container-1 img{
+    width: 300px;
+    border-radius: 15px;
+}
+/* map */
+.map iframe{
+    width: 70%;
+    height: 60vh;
+    margin-left: 15%;
+}
 /* card */
 .card{
     width: 100%;
@@ -232,6 +270,58 @@ border-bottom: 2px solid #fff;
     width: 55%;
     height: 18px;
     background:#6A92D8;
+}
+/* form */
+.form-container{
+    box-sizing: border-box;
+    width: 50%;
+    height: 120vh;
+    margin: 10px;
+    margin-left: 25%;
+    padding: 10px;
+    background: #6A92D8;
+    border-radius: 7px;
+}
+input,
+textarea{
+    border: none;
+    background-color: #fff;
+    border-radius: 7px;
+}
+textarea{
+    height: 40vh;
+}
+.form-group{
+    padding: 20px;    
+}
+.form-control{
+    padding: 15px;
+    width: 90%;
+    margin-left: 5%;
+    box-sizing: border-box;
+    border-top: none;
+    border-right: none;
+}
+/* .form-group label{
+    padding-right: 10px;
+} */
+.form-group .btn{
+    width: 20%;
+    margin-left: 40%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background:#fff;
+    font-size: 1.5rem;
+    color: #6A92D8;
+    cursor: pointer;
+}
+::placeholder{
+    color: #6A92D8;
+    font-size: 1rem;
+}
+.no-resize{
+    resize: none;
 }
 /* footer */
 footer{
@@ -319,6 +409,36 @@ footer{
     }
     .container .btn .button a{
           font-size: 2rem;
+    }
+    .container-1{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .container-1 img{
+        width: 400px;
+        margin-bottom: 30px;
+        border-radius: 15px;
+    }
+    .container-1 .text .button-1{
+        width: 115px;
+        box-sizing: border-box;
+        font-size: 0.9rem;
+        margin-left: 40%;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+    }
+    .container-1 .text{
+        width: 100%;
+        padding:0 20px 0 0;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;        
+    }
+    .container-1 .text p{
+        width: 90%;
+        margin-left:5%;
+        padding: 10px;
     }
     /* card */
     .card-4{
@@ -470,8 +590,11 @@ footer{
         display: block;
         text-align: center;
     }
+    header nav ul li{
+        padding: 5px;
+    }
     header nav ul a {
-        font-size: 1.3rem;    
+        font-size: 1rem;    
     }
     #active{
         border-bottom: 2px solid #fff;
@@ -505,6 +628,12 @@ footer{
     }
     .container .title h1{
         font-size: 1rem;
+    }
+    .container-1 .text .button-1{
+        margin-left: 35%;
+    }
+    .container-1 img{
+        width: 350px;
     }
     /* card */
     .card-4{
@@ -549,22 +678,63 @@ footer{
     .blue-6{
         height: 10px;
     }
-    /* footer */
-    footer{
-        font-size: 0.8rem;
+    /* map */
+    .map iframe{
+        width: 90%;
+        height: 30vh;
+        margin-left: 5%;
     }
-    .info{
+    /* form */
+    .form-container{
+        box-sizing: border-box;
+        width: 80%;
+        height: 105vh;
+        margin: 10px;
+        margin-left: 10%;
         padding: 10px;
+        background: #6A92D8;
+        border-radius: 7px;
     }
-    .social{
-        text-align: center;
+    input,
+    textarea{
+        border: none;
+        background-color: #fff;
+        border-radius: 7px;
     }
-    .social img{
-        width: 30px;
+    textarea{
+        height: 20vh;
     }
-    .address{
-        padding: 0;
-        width: 35%;
+    .form-group{
+        padding: 20px;    
+    }
+    .form-control{
+        padding: 15px;
+        width: 90%;
+        margin-left: 5%;
+        box-sizing: border-box;
+        border-top: none;
+        border-right: none;
+    }
+    /* .form-group label{
+        padding-right: 10px;
+    } */
+    .form-group .btn{
+        width: 30%;
+        margin-left: 35%;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        background:#fff;
+        font-size: 1rem;
+        color: #6A92D8;
+        cursor: pointer;
+    }
+    ::placeholder{
+        color: #6A92D8;
+        font-size: 1rem;
+    }
+    .no-resize{
+        resize: none;
     }
     /* footer */
     footer{
@@ -591,6 +761,5 @@ footer{
         width: 90%;
         text-align: left;
         text-align-last: left;
-    }
-    
+    }   
 }
