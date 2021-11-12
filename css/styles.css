@@ -488,6 +488,9 @@ footer{
         align-items: center;
         margin: auto;
     }
+    .container .title h1{
+        font-size: 1rem;
+    }
     /* card */
     .card-4{
         width: 120px;
