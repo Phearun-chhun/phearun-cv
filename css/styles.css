@@ -581,11 +581,9 @@ footer{
     .container .btn span{
           font-size: 0.8rem;
     }
-    ::placeholder{
-        font-size: 0.9rem;
-    }
-    .no-resize{
-        resize: none;
+    /* form */
+    .form-container{
+        height: 80vh;
     }
     /* card */
     .card-4{
