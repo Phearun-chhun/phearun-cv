@@ -583,7 +583,9 @@ footer{
     }
     /* form */
     .form-container{
-        height: 80vh;
+        width: 90%;
+        margin-left: 5%;
+        height: 90vh;
     }
     /* card */
     .card-4{
