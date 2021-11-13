@@ -757,6 +757,14 @@ footer{
     .form-group{
         padding: 10px;    
     }
+    .form-control{
+        padding: 10px;
+        width: 90%;
+        margin-left: 5%;
+        box-sizing: border-box;
+        border-top: none;
+        border-right: none;
+    }
     /* footer */
     footer{
         font-size: 0.7rem;
