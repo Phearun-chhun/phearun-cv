@@ -761,9 +761,10 @@ footer{
         padding: 10px;
         width: 90%;
         margin-left: 5%;
-        box-sizing: border-box;
-        border-top: none;
-        border-right: none;
+    }
+    .form-group .btn{
+        font-size: 0.7rem;
+        width: 20%;
     }
     /* footer */
     footer{
