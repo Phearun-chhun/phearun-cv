@@ -751,7 +751,7 @@ footer{
     .form-container{
         box-sizing: border-box;
         width: 80%;
-        height: 80vh;
+        height: 50vh;
         margin: 10px;
         margin-left: 10%;
         padding: 10px;
@@ -771,27 +771,6 @@ footer{
         box-sizing: border-box;
         border-top: none;
         border-right: none;
-    }
-    /* .form-group label{
-        padding-right: 10px;
-    } */
-    .form-group .btn{
-        width: 30%;
-        margin-left: 35%;
-        padding: 10px;
-        border: none;
-        border-radius: 10px;
-        background:#fff;
-        font-size: 1rem;
-        color: #6A92D8;
-        cursor: pointer;
-    }
-    ::placeholder{
-        color: #6A92D8;
-        font-size: 1rem;
-    }
-    .no-resize{
-        resize: none;
     }
     /* footer */
     footer{
