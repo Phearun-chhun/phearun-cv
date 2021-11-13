@@ -457,14 +457,14 @@ footer{
     .form-container{
         box-sizing: border-box;
         width: 70%;
-        height: 90vh;
+        height: 45vh;
         margin-left:15%;
         padding: 0;
         background: #6A92D8;
         border-radius: 9px;
     }
     textarea{
-        height: 25vh;
+        height: 15vh;
     }
     .form-group{
         padding: 10px;   
@@ -585,10 +585,40 @@ footer{
         width: 300px;
     }
     /* form */
+    form{
+        padding: 20px 0 20px 0;
+    }
     .form-container{
+        box-sizing: border-box;
+        width: 70%;
+        height: 45vh;
+        margin-left:15%;
+        padding: 0;
+        background: #6A92D8;
+        border-radius: 9px;
+    }
+    textarea{
+        height: 15vh;
+    }
+    .form-group{
+        padding: 10px;   
+    }
+    .form-control{
+        padding: 15px;
         width: 90%;
         margin-left: 5%;
-        height: 90vh;
+        box-sizing: border-box;
+        border-top: none;
+        border-right: none;
+    }
+    .form-group .btn{
+        width: 20%;
+        margin-left: 40%;
+        padding: 7px;
+        border-radius: 7px;
+    }
+    ::placeholder{
+        font-size: 0.9rem;
     }
     /* card */
     .card-4{
