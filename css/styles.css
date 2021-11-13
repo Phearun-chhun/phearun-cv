@@ -729,7 +729,6 @@ footer{
         display: flex; 
         justify-content: center;
         align-items: center;
-        background: red;
     }
     .container-1 img{
         width: 350px;
