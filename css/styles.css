@@ -272,15 +272,17 @@ border-bottom: 2px solid #fff;
     background:#6A92D8;
 }
 /* form */
+form{
+    padding: 10px;
+}
 .form-container{
     box-sizing: border-box;
     width: 50%;
-    height: 120vh;
+    height: 114vh;
     margin: 10px;
     margin-left: 25%;
-    padding: 10px;
     background: #6A92D8;
-    border-radius: 7px;
+    border-radius: 10px;
 }
 input,
 textarea{
@@ -292,7 +294,7 @@ textarea{
     height: 40vh;
 }
 .form-group{
-    padding: 20px;    
+    padding: 15px;    
 }
 .form-control{
     padding: 15px;
@@ -302,17 +304,14 @@ textarea{
     border-top: none;
     border-right: none;
 }
-/* .form-group label{
-    padding-right: 10px;
-} */
 .form-group .btn{
     width: 20%;
     margin-left: 40%;
     padding: 10px;
     border: none;
-    border-radius: 10px;
+    border-radius: 7px;
     background:#fff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #6A92D8;
     cursor: pointer;
 }
@@ -440,8 +439,63 @@ footer{
         margin-left:5%;
         padding: 10px;
     }
-    /* card */
-    .card-4{
+    /* map */
+    .map iframe{
+        width: 90%;
+        margin-left: 5%;
+    }
+    /* form */
+    form{
+        padding: 20px 0 20px 0;
+    }
+    .form-container{
+        box-sizing: border-box;
+        width: 70%;
+        height: 90vh;
+        margin-left:15%;
+        padding: 0;
+        background: #6A92D8;
+        border-radius: 9px;
+    }
+    textarea{
+        height: 25vh;
+    }
+    .form-group{
+        padding: 10px;   
+    }
+    input,
+    textarea{
+    border: none;
+    background-color: #fff;
+    border-radius: 7px;
+    }
+    .form-control{
+        padding: 15px;
+        width: 90%;
+        margin-left: 5%;
+        box-sizing: border-box;
+        border-top: none;
+        border-right: none;
+    }
+    .form-group .btn{
+        width: 20%;
+        margin-left: 40%;
+        padding: 7px;
+        border: none;
+        border-radius: 7px;
+        background:#fff;
+        font-size: 1rem;
+        color: #6A92D8;
+        cursor: pointer;
+    }
+    ::placeholder{
+        font-size: 0.9rem;
+    }
+    .no-resize{
+        resize: none;
+    }
+     /* card */
+     .card-4{
         width: 250px;
 
     }
@@ -526,6 +580,12 @@ footer{
     }
     .container .btn span{
           font-size: 0.8rem;
+    }
+    ::placeholder{
+        font-size: 0.9rem;
+    }
+    .no-resize{
+        resize: none;
     }
     /* card */
     .card-4{
@@ -685,30 +745,27 @@ footer{
         margin-left: 5%;
     }
     /* form */
+    form{
+        padding: 5px 0 0 0 ;
+    }
     .form-container{
         box-sizing: border-box;
         width: 80%;
-        height: 105vh;
+        height: 80vh;
         margin: 10px;
         margin-left: 10%;
         padding: 10px;
         background: #6A92D8;
         border-radius: 7px;
     }
-    input,
-    textarea{
-        border: none;
-        background-color: #fff;
-        border-radius: 7px;
-    }
     textarea{
         height: 20vh;
     }
     .form-group{
-        padding: 20px;    
+        padding: 10px;    
     }
     .form-control{
-        padding: 15px;
+        padding: 10px;
         width: 90%;
         margin-left: 5%;
         box-sizing: border-box;
