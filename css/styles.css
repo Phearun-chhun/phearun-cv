@@ -214,11 +214,11 @@ border-bottom: 2px solid #fff;
     align-items: stretch;
 }
 .card-4{
-    width: 330px;
+    width: 420px;
     justify-content: space-between;
 }
 .card-4 .image{
-    width: 330px;    
+    width: 420px;    
     border-radius: 15px;
     text-align: center;
 }
@@ -726,10 +726,10 @@ footer{
     }
     /* card */
     .card-4{
-        width: 120px;
+        width: 100px;
     }
     .card-4 .image{
-        width: 120px;  
+        width: 100px;  
     }
     .card-p{
         font-size: 0.45rem;  
