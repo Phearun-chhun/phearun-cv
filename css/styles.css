@@ -749,28 +749,13 @@ footer{
         padding: 5px 0 0 0 ;
     }
     .form-container{
-        box-sizing: border-box;
-        width: 80%;
-        height: 60vh;
-        margin: 10px;
-        margin-left: 10%;
-        padding: 10px;
-        background: #6A92D8;
-        border-radius: 7px;
+        height: 63vh;
     }
     textarea{
-        height: 20vh;
+        height: 15vh;
     }
     .form-group{
         padding: 10px;    
-    }
-    .form-control{
-        padding: 10px;
-        width: 90%;
-        margin-left: 5%;
-        box-sizing: border-box;
-        border-top: none;
-        border-right: none;
     }
     /* footer */
     footer{
