@@ -280,7 +280,7 @@ form{
 .form-container{
     box-sizing: border-box;
     width: 50%;
-    height: 114vh;
+    height: 120vh;
     margin: 10px;
     margin-left: 25%;
     background: #6A92D8;
@@ -326,6 +326,10 @@ textarea{
 }
 label{
     margin-left: 7%;
+}
+.sex{
+   margin-left: 5%;
+   
 }
 /* footer */
 footer{
@@ -460,7 +464,7 @@ footer{
     .form-container{
         box-sizing: border-box;
         width: 70%;
-        height: 45vh;
+        height: 50vh;
         margin-left:15%;
         padding: 0;
         background: #6A92D8;
@@ -592,9 +596,9 @@ footer{
         padding: 20px 0 20px 0;
     }
     .form-container{
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
         width: 70%;
-        height: 55vh;
+        height: 60vh;
         margin-left:15%;
         padding: 0;
         background: #6A92D8;
@@ -789,7 +793,7 @@ footer{
     .form-container{
         width: 90%;
         margin-left: 5%;
-        height: 60vh;
+        height: 75vh;
     }
     textarea{
         height: 15vh;
