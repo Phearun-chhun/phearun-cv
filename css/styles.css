@@ -101,6 +101,12 @@ border-bottom: 2px solid #fff;
     letter-spacing: 1px; 
 }
 /* container */
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
 .container{
     width: 90%;
     margin-left: 5%;
@@ -196,8 +202,9 @@ border-bottom: 2px solid #fff;
 /* map */
 .map iframe{
     width: 70%;
-    height: 60vh;
     margin-left: 15%;
+    height: 60vh;
+    box-sizing: border-box;
 }
 /* card */
 .card{
@@ -278,11 +285,7 @@ form{
     padding: 10px;
 }
 .form-container{
-    box-sizing: border-box;
-    width: 50%;
-    height: 120vh;
-    margin: 10px;
-    margin-left: 25%;
+    width: 700px;
     background: #6A92D8;
     border-radius: 10px;
 }
@@ -292,16 +295,13 @@ textarea{
     background-color: #fff;
     border-radius: 7px;
 }
-textarea{
-    height: 40vh;
-}
+
 .form-group{
     padding: 15px;    
 }
 .form-control{
     padding: 15px;
-    width: 90%;
-    margin-left: 5%;
+    width: 100%;
     box-sizing: border-box;
     border-top: none;
     border-right: none;
@@ -326,10 +326,6 @@ textarea{
 }
 label{
     margin-left: 7%;
-}
-.sex{
-   margin-left: 5%;
-   
 }
 /* footer */
 footer{
@@ -462,16 +458,7 @@ footer{
         padding: 20px 0 20px 0;
     }
     .form-container{
-        box-sizing: border-box;
-        width: 70%;
-        height: 50vh;
-        margin-left:15%;
-        padding: 0;
-        background: #6A92D8;
-        border-radius: 9px;
-    }
-    textarea{
-        height: 15vh;
+        width: 700px;
     }
     .form-group{
         padding: 10px;   
@@ -492,6 +479,9 @@ footer{
     }
     ::placeholder{
         font-size: 0.9rem;
+    }
+    .sex{
+        padding: 0 0 0 50px ;
     }
      /* card */
      .card-4{
@@ -596,13 +586,7 @@ footer{
         padding: 20px 0 20px 0;
     }
     .form-container{
-        /* box-sizing: border-box; */
-        width: 70%;
-        height: 60vh;
-        margin-left:15%;
-        padding: 0;
-        background: #6A92D8;
-        border-radius: 9px;
+        width: 550px;
     }
     textarea{
         height: 15vh;
@@ -626,6 +610,9 @@ footer{
     }
     ::placeholder{
         font-size: 0.9rem;
+    }
+    .sex{
+        padding-left: 40px;
     }
     /* card */
     .card-4{
@@ -789,11 +776,12 @@ footer{
     /* form */
     form{
         padding: 5px 0 0 0 ;
+        box-sizing: border-box;
     }
     .form-container{
-        width: 90%;
-        margin-left: 5%;
-        height: 75vh;
+        width: 300px;
+        background: #6A92D8;
+        border-radius: 10px;
     }
     textarea{
         height: 15vh;
@@ -808,11 +796,13 @@ footer{
     }
     .form-group .btn{
         font-size: 0.8rem;
-        width: 30%;
-        margin-left: 35%;
+
     }
     label{
         margin-left: 7%;
+    }
+    .sex{
+        padding-left: 30px;
     }
     /* footer */
     footer{
