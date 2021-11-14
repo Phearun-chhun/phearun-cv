@@ -195,6 +195,7 @@ border-bottom: 2px solid #fff;
  .button:hover{
     background: #ffff;
     color: #6A92D8;
+    border: 1px solid #6A92D8;
 }
 .container-1 .text span{
     text-align: center;
