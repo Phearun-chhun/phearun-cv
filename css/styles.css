@@ -219,11 +219,11 @@ border-bottom: 2px solid #fff;
     align-items: stretch;
 }
 .card-4{
-    width: 380px;
+    width: 370px;
     justify-content: space-between;
 }
 .card-4 .image{
-    width: 380px;    
+    width: 370px;    
     border-radius: 15px;
     text-align: center;
 }
