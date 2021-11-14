@@ -135,6 +135,11 @@ border-bottom: 2px solid #fff;
     width: 60%;
     border-radius: 15px 0 0 15px  ;
 }
+.information strong{
+    color: #6A92D8;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
 .container .text{
     box-sizing: border-box;
     width:40%;
@@ -409,6 +414,9 @@ footer{
     .information .text{
         width: 100%;
     }
+    .information strong{
+        font-size: 1.3rem;
+    }
     /* container */
     .container .title span{
         font-weight: bold;
@@ -550,6 +558,9 @@ footer{
     }
     .paragraph p{
         width: 85%;
+    }
+    .information strong{
+        font-size: 1rem;
     }
     /* button */
     .text .btn{
@@ -728,6 +739,9 @@ footer{
     }
     .container-1 img{
         width: 350px;
+    }
+    .information strong{
+        font-size: 1rem;
     }
     /* card */
     .card-4{
