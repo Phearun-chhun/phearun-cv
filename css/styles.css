@@ -357,6 +357,10 @@ footer{
     padding: 7px;
     width: 100%;
 }
+.side-right a{
+    color: #fff;
+    text-decoration: none;
+}
 .address{
     padding: 7px;
     width: 30%;
